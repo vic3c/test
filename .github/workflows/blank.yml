@@ -1,5 +1,6 @@
 name: Publish package to GitHub Packages
-on: workflow_run
+on: push
+
 jobs:
   build:
     runs-on: ubuntu-latest 
