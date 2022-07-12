@@ -9,4 +9,4 @@ jobs:
     name: TEST
     runs-on: ubuntu-latest
     steps:
-      - run: echo "hello"
+      - run: echo "lollll"
