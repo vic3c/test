@@ -1,0 +1,12 @@
+name: Callie
+
+on:
+  workflow_call:
+  push:
+
+jobs:
+  example_job:
+    name: TEST
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello"
